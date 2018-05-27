@@ -9,16 +9,15 @@
 
 
 ## Installation:
-[Clone this repo](https://github.com/achwin/disease-spread.git)
-
-Setelah itu run command berikut di cmd direktori repo tadi
+1. Clone [this repo](https://github.com/achwin/disease-spread.git)
+2. Setelah itu run command berikut di cmd direktori repo tadi
 ```bash
 composer install
 ```
 
-Buat file baru bernama .env
+3. Buat file baru bernama .env
 
-Copy paste isi dari .env.example ke .env tadi, kemudian atur konfigurasi username dan password database di .env
+4. Copy paste isi dari .env.example ke .env tadi, kemudian atur konfigurasi username dan password database di .env
 
 ```php
 APP_NAME=Laravel
@@ -56,17 +55,17 @@ PUSHER_APP_KEY=
 PUSHER_APP_SECRET=
 ```
 
-Setelah itu jalankan command ini di cmd
+5. Setelah itu jalankan command ini di cmd
 ```bash
 php artisan key:generate
 ```
-
-Dan terakhir jalankan aplikasi ini dengan command
+## Usage
+1. Jalankan aplikasi ini dengan command
 ```bash
 php artisan serve
 ```
 
-Untuk menjalankan aplikasi di browser gunakan url
+2. Untuk menjalankan aplikasi di browser gunakan url
 ```bash
 localhost:8000
 ```
