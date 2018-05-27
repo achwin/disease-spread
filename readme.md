@@ -2,13 +2,13 @@
 
 # Penyebaran Penyakit
 
-## Requirements:
+## Requirements
 * [XAMPP](https://www.apachefriends.org/download.html) (Versi PHP minimal 7.1) 
 * [Composer](https://getcomposer.org/)
 * [Git](https://git-scm.com/downloads)
 
 
-## Installation:
+## Installation
 1. Clone [this repo](https://github.com/achwin/disease-spread.git)
 2. Setelah itu run command berikut di cmd direktori repo tadi
 ```bash
